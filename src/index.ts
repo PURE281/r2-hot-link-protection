@@ -1,3 +1,4 @@
+// 修改这个列表，更新为自己的 domain list
 const ALLOWED = new Set([
   'app.justincourse.com',
   'justincourse.com', 
