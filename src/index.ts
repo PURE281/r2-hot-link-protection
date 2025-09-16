@@ -5,7 +5,7 @@ const ALLOWED = new Set([
   'pure81.site'
 ]);
 const CORP    = 'same-site';     // same-origin 也行
-const BUCKET  = 'MEDIA';         // 对应 wrangler 的 r2_buckets 绑定名
+const BUCKET  = 'red';         // 对应 wrangler 的 r2_buckets 绑定名
 
 export default {
   async fetch(request: Request, env: Env) {
