@@ -2,7 +2,8 @@
 const ALLOWED = new Set([
   'img.pure81.top',
   'pure81.top', 
-  'pure81.site'
+  'www.pure81.site',
+  'red.pure81.site'
 ]);
 const CORP    = 'same-site';     // same-origin 也行
 const BUCKET  = 'MEDIA';         // 对应 wrangler 的 r2_buckets 绑定名
